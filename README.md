@@ -111,6 +111,7 @@ PUT /bestbuy
 ```
 
 ## Sample query -
+```json
 POST /bestbuy/product/_search
 {
   "query": {
@@ -120,6 +121,7 @@ POST /bestbuy/product/_search
     }
   }
 }
+```
 
 ## References
   - https://qbox.io/blog/multi-field-partial-word-autocomplete-in-elasticsearch-using-ngrams
