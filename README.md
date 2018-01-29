@@ -1,6 +1,7 @@
 # AutoComplete
 
 ## Index definition
+```json
 PUT /bestbuy
 {
   "settings": {
@@ -107,6 +108,7 @@ PUT /bestbuy
     }
   }
 }
+```
 
 ## Sample query -
 POST /bestbuy/product/_search
