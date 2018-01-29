@@ -40,9 +40,14 @@ public class AutocompleteController {
         Iterator<SearchHit> iterator = hits.iterator();
         List<String> values = new ArrayList<String>();
         autoCompleteResponse.setValues(values);
+        int i = 0;
         while (iterator.hasNext()) {
+            i++;
             SearchHit hit = iterator.next();
             values.add((String)hit.getSourceAsMap().get("name"));
+            if (i == 10) {   // max 10, can be made configurable
+                break;
+            }
         }
         return autoCompleteResponse;
     }
