@@ -19,7 +19,7 @@
         $(function () {
             var getData = function (request, response) {
                 $.getJSON(
-                        "http://192.168.56.101:8080/autocomplete?search-entity=name&search-query=" + request.term,
+                        "/autocomplete?search-entity=name&search-query=" + request.term,
                         function (data) {
                             response($.map(data.values, function(item) {
                                 return {
