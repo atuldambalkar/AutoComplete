@@ -23,7 +23,7 @@ import java.util.List;
 public class AutocompleteController {
 
     @RequestMapping("/autocomplete")
-    public AutoCompleteResponse greeting(@RequestParam(value="search-entity") String name,
+    public AutoCompleteResponse autoComplete(@RequestParam(value="search-entity") String name,
                                          @RequestParam(value="search-query") String query) throws Exception {
 
         SearchRequest searchRequest = new SearchRequest("bestbuy");  // name of the index to search
