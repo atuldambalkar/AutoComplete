@@ -8,7 +8,7 @@ This is an implementation for autocomplete feature using Elasticsearch as backen
   - Spring Boot serving static web content
   - Elasticsearch 5.6.3
 
-## Index definition
+## Elasticsearch Index definition
 ```json
 PUT /bestbuy
 {
@@ -118,7 +118,7 @@ PUT /bestbuy
 }
 ```
 
-## Sample query -
+## Sample Elasticsearch query -
 ```json
 POST /bestbuy/product/_search
 {
