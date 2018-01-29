@@ -118,7 +118,7 @@ PUT /bestbuy
 }
 ```
 
-## Sample Elasticsearch query -
+## Sample Elasticsearch query
 ```json
 POST /bestbuy/product/_search
 {
