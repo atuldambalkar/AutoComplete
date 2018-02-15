@@ -6,7 +6,7 @@ This is an implementation for autocomplete feature using Elasticsearch as backen
   - Java - JDK 1.8
   - Spring Boot 1.5.9 with RESTful Web Service
   - Spring Boot serving static web content
-  - Elasticsearch 5.6.3
+  - Elasticsearch 5.6.3     
 
 ## Elasticsearch Index definition
 ```json
